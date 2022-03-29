@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #2E948A;  
+}
+
+header h2 a  {
+    color: transparent;
+    padding: 22px 570px 22px 0;
+    background-image: url(../dindin-imagens/logo-header.png);
+    background-repeat: no-repeat;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+nav ul a:link {
+    color: #FDFDFD;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FDFDFD;
+}
+
+nav ul li {   
+    margin: 20px;
+}
+
+footer h2 a {
+    color: transparent;
+}
+
+footer h2 {
+    background-image: url(../dindin-imagens/logo-footer.png);
+    background-repeat: no-repeat;
+    margin-left: 65px;
+
+}
+
+footer {
+    background-color: #419488;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 7px;
+    height: 2px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-transform: lowercase;
+    justify-content: left;
+    align-items: center;
+}
+
+#menu ul li {
+    width: min-content;
+    margin: 2px;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+#external-link ul li {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: lowercase;
+    padding: 15px;
+    width: 289px;
+    margin: 5px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 2px solid #FFFFFF;
+    box-sizing: content-box;
+    border-radius: 62px;
+}
+
+#external-link ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: min-content;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 481px) {
+    footer h2  {
+        background: none;
+    }
+
+    #menu ul li {       
+        font-size: 15px;
+        padding: 1px;
+        margin: 0;
+        margin-left: -35px;
+
+    }
+
+    footer h2 a {
+        display: none;
+    }
+
+    footer h2 {
+        margin-left: 20px;
+    }
+
+    #external-link ul li {
+        font-size: 10px;
+        line-height: 10%;
+        border: 1px solid #FFFFFF;
+        margin-right: 50px;
+        margin-left: 0;
+    }
+
+    #external-link ul {
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        width: 300px;
+        margin-right: -30px;
+    }
+
+   
+    nav ul {
+        font-size: 10px;
+        margin-top: 0;
+    }
+
+    nav ul li {   
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    header h2 a  {
+        background-size: 40%;
+        margin-left: 20px;
+        padding-right: 0;
+        background-position-y: center;
+    }
+}
+
+    @media (max-width: 769px) and (min-width: 481px){
+       
+        footer h2 {
+            background-size: 50%;
+            margin-left: 30px;
+        }
+
+        #menu ul li {       
+            font-size: 15px;
+            padding: 1px;
+            margin: 0;
+        }    
+
+        
+        #menu ul {
+            width:80px;
+            padding-right: 50px;
+            padding-left: 0;
+            margin-left: -100px;
+        }
+    
+        #external-link ul li {
+            font-size: 15px;
+            line-height: 10%;
+            border: 1px solid #FFFFFF;
+            margin-left: 2px;
+
+        }
+    
+        #external-link ul {
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            margin-right: 15px;
+        }
+           
+        nav ul {
+            font-size: 10px;
+            margin-top: 0;
+        }
+    
+        nav ul li {   
+            margin: 5px;
+            margin-right: 20px;
+            font-size: 15px;
+            font-weight: 500;
+
+        }
+    
+        header h2 a  {
+            background-size: 50%;
+            padding-right: 0;
+            background-position-y: center;
+        }
+     }
