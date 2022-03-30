@@ -1,0 +1,185 @@
+.banner1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(../dindin-imagens/ilustra-banner.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 440px 450px;
+    margin: 100px 100px 100px 170px;
+    padding-bottom: 25px;
+}
+
+article h1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+    width: 450px;
+    margin-bottom: 0;
+}
+
+article h3 {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+    width: 350px;
+    padding-bottom: 20px;
+}
+
+article button {
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 268px;
+    height: 51px;   
+    cursor: pointer; 
+}
+
+.banner2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    justify-content: space-evenly;
+}
+
+.imagens {
+    margin: 80px;
+}
+ 
+.titulo-link {
+    display: flex;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.paragrafo-link {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    width: 293px;
+}
+
+.link-começar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: lowercase;
+
+    background: #FF4081;
+    border-radius: 62px;
+    width: 240px;
+    height: 51px;
+}
+.img1 {
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.img2 {
+    padding-bottom: 20px;
+}
+
+.img3 {
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+article h2 {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #009688;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.banner3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.nome-idade1 {
+    display: flex;
+    background-position: left;
+    float: left;
+    padding-right: 15px;
+}
+#banner3-2 {
+    margin-bottom: 100px;
+}
+.depoimento {
+    margin: 20px;
+}
+
+.depoimento p {
+    width: 500px;
+}
+
+.banner4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mais-conteudo {
+    padding: 20px;
+}
+
+.background {
+    background: #E5E5E5;
+    padding: 20px;
+}
+
+.paragrafo-cont {
+    font-weight: 500;
+    font-size: 17px;
+    text-align: left;
+    color: #000000;
+    width: 293px;
+    margin: 0;
+}
+
+.titulo-cont {
+    display: flex;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: left;
+    color: #009688;
+}
+
+#button-post {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+    margin: 50px;
+    cursor: pointer;
+}
+
+
