@@ -1,0 +1,136 @@
+article h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+    padding-left: 82px;
+    margin-bottom: 0;
+}
+
+article h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+    padding-left: 82px;
+    margin-top: 0;
+
+}
+
+.banner2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img1 {
+    float: left;
+    margin: 30px;
+    margin-top: -10px;
+}
+
+.img2 {
+    float: left;
+    margin: 30px;
+    margin-top: -10px;
+}
+
+.img3 {
+    float: left;
+    margin: 30px;
+    margin-top: -10px;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 90px;
+}
+
+.titulo-link {
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.descrição-curso {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.paragrafo-link {
+    display: flex;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    width: 724px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.link-começar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: lowercase;
+
+    background: #2E948A;
+    border-radius: 62px;
+    width: 240px;
+    height: 51px;
+}
+.linha {
+    background-size: 100%;
+}
+@media only screen and (max-width: 481px) {
+    .paragrafo-link {
+        width: 324px;
+    }
+    .linha {
+        width: 350px;
+        height: 5px;
+    }
+
+    .img1 {
+        width: 261px;
+        height: 240px;
+    }
+
+    .img2 {
+        width: 225px;
+        height: 277px;
+    }
+
+    .img3 {
+        width: 209px;
+        height: 277px;
+    }
+}
+
+@media (max-width: 769px) and (min-width: 481px){
+    .paragrafo-link {
+        width: 524px;
+    }
+    .linha {
+        width: 600px;
+        height: 5px;
+    }
+
+}

@@ -6,7 +6,7 @@
     background-position: right;
     background-repeat: no-repeat;
     background-size: 440px 450px;
-    margin: 100px 100px 100px 170px;
+    margin: 100px 300px 100px 170px;
     padding-bottom: 25px;
 }
 
@@ -115,7 +115,12 @@ article h2 {
     padding-left: 200px;
     padding-top: 100px;
 }
-
+#h2-banner3 {
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 50px;
+    padding-left: 250px;
+}
 .banner3 {
     display: flex;
     justify-content: space-evenly;
@@ -125,7 +130,7 @@ article h2 {
     display: flex;
     background-position: left;
     float: left;
-    padding-right: 15px;
+    padding-right: 20px;
 }
 #banner3-2 {
     margin-bottom: 100px;
@@ -136,6 +141,11 @@ article h2 {
 
 .depoimento p {
     width: 500px;
+}
+
+.nome-idade {
+    font-weight: 510;
+    font-size: 15px;
 }
 
 .banner4 {
@@ -182,4 +192,102 @@ article h2 {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 481px) {
+    .banner1 {
+        background-image: none;
+        margin-left: 22px;
+    }
+
+    article h1 {
+        font-size: 40px;
+    }
+
+    article h2 {
+        font-size: 245x;
+    }
+
+    article button {
+        font-size: 17px;
+        padding: 1px;
+        width: 168px;
+        height: 33px;   
+    }
+    
+    .nome-idade1 {
+        display: none;
+    }
+    
+    .banner3 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .banner4 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    #h2-banner3 {
+        padding-left: 50px;
+        font-size: 30px;
+    }
+    
+    article h2 {
+        padding-left: 30px;
+        font-size: 25px;
+    }
+    
+    .banner4 {
+        padding: 8px;
+    }
+
+    #button-post {
+        margin-left: -10px;
+    }
+
+    .depoimento p {
+        width: 200px;
+    }
+
+    .depoimento {
+        margin: 40px;
+    }
+}
+
+@media (max-width: 769px) and (min-width: 481px){
+    .banner1 {
+        background-image: none;
+    }
+
+    .banner3 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .banner4 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    #h2-banner3 {
+        padding-left: 150px;
+    }
+    
+    article h2 {
+        padding-left: 18px;
+    }
+    
+    .banner4 {
+        padding: 8px;
+    }
+
+    #button-post {
+        margin-left: -10px;
+    }
+
+}
 
