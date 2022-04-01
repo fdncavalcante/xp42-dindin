@@ -1,0 +1,156 @@
+body {
+    margin: none;
+}
+div img {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin: 50px;
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: -40px;
+
+
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -100px;
+
+}
+
+fieldset label {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+fieldset {
+    border: none;
+}
+
+section h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+}
+
+label {
+    padding: 20px;
+}
+
+.screen-reader-only {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+#nome {
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 450px;
+    height: 32px;
+    padding: 5px;
+    padding-left: 22px;
+}
+
+button, input {
+    display: flex;
+    border: none;
+    justify-items: center;
+    padding-top: -10px;
+}
+
+#email {
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 450px;
+    height: 32px;
+    padding: 5px;
+    padding-left: 22px;
+    margin-top: 20px;
+}
+
+#mensagem {
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 450px;
+    height: 193px;
+    padding: 5px;
+    padding-left: 22px;
+    margin-top: 20px;
+}
+
+textarea, input {
+    display: flex;
+    border: none;
+    justify-items: center;
+    padding-top: -10px;
+}
+
+#input {
+    display: flex;
+    background: #FF4081;
+    border-radius: 50px;
+
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    width: 93px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    margin-top: 15px;
+    padding: 5px;
+    justify-content: center;
+}
+
+section h2 {
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 481px) {
+    div img {
+        display: none;
+    }
+
+    form {
+        margin-left: 0;
+    }
+
+    #nome {
+        width: 400px;
+    }
+
+    #mensagem {
+        width: 400px;
+    }
+
+    #email {
+        width: 400px;
+    }
+    
+}
+
+@media (max-width: 769px) and (min-width: 481px){
+    div img {
+        display: none;
+    }
+}
